@@ -23,7 +23,7 @@ export const AtButton = ({ label, variant = 'PRIMARY', isDisabled = false, onCli
   return (
     <button
       className={`${variantClasses[variant]} ${
-        isDisabled ? 'bg-gray-300 text-slate-600 cursor-not-allowed pointer-events-none' : ''
+        isDisabled ? 'text-slate-600 cursor-not-allowed pointer-events-none' : ''
       }`}
       onClick={isDisabled ? onClick : undefined}
     >
