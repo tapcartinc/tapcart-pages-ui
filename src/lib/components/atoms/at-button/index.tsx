@@ -22,9 +22,7 @@ export interface AtButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 export const AtButton = ({ label, variant = 'PRIMARY', isDisabled = false, onClick }: AtButtonProps) => {
   return (
     <button
-      className={`${variantClasses[variant]} ${
-        isDisabled ? 'text-slate-600 cursor-not-allowed pointer-events-none' : ''
-      }`}
+      className={`${variantClasses[variant]} ${isDisabled ? 'text-slate-600 pointer-events-none' : ''}`}
       onClick={isDisabled ? onClick : undefined}
     >
       {label}
