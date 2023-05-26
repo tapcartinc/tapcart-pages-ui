@@ -13,7 +13,7 @@
     "./dist/style.css": "./dist/style.css"
   },
   "engines": {
-    "node": "16.18.1"
+    "node": "14.18.0"
   },
   "scripts": {
     "dev": "start-storybook -p 6006",
@@ -62,7 +62,6 @@
     "lint-staged": ">=10",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
-    "tailwindcss": "^3.2.4",
     "typescript": "*",
     "vite": "^4.0.0",
     "vite-plugin-dts": "^1.7.1",
