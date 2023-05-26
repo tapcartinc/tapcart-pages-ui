@@ -1,7 +1,7 @@
 {
   "name": "tapcart-pages-ui",
   "private": false,
-  "version": "2.0.0",
+  "version": "1.0.1",
   "main": "./dist/vite-component-library-template.umd.js",
   "module": "./dist/vite-component-library-template.es.js",
   "types": "./dist/index.d.ts",
