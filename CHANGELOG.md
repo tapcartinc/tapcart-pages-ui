@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0 (2023-05-26)
+
+
+### Bug Fixes
+
+* remove 'button' styles ([f5dc719](https://github.com/tapcartinc/tapcart-pages-ui/commit/f5dc719b1f629589e14e8ee0a4f55ac12f47b9dc))
+* remove 'button' styles ([49e4831](https://github.com/tapcartinc/tapcart-pages-ui/commit/49e4831169b06634943a3059731abb1c514125dc))
+
 ## [1.5.11](https://github.com/IgnacioNMiranda/vite-component-library-template/compare/v1.5.10...v1.5.11) (2023-01-22)
 
 
